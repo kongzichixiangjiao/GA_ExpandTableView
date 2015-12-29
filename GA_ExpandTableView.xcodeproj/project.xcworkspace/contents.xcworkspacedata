@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GA_TableView.xcodeproj">
+      location = "self:/Users/houjianan/Desktop/GA_TableView/GA_ExpandTableView.xcodeproj">
    </FileRef>
 </Workspace>

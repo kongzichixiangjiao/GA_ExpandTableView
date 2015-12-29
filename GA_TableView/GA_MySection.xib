@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2wr-qS-AWN" customClass="GA_MySection" customModule="GA_ExpandTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyZ-rc-a8d">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="?"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="2wr-qS-AWN" eventType="touchUpInside" id="2QV-PK-k6Z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZyZ-rc-a8d" firstAttribute="top" secondItem="2wr-qS-AWN" secondAttribute="top" id="7RR-fJ-YeS"/>
+                <constraint firstItem="ZyZ-rc-a8d" firstAttribute="top" secondItem="2wr-qS-AWN" secondAttribute="top" id="F2z-9v-eCf"/>
+                <constraint firstAttribute="trailing" secondItem="ZyZ-rc-a8d" secondAttribute="trailing" id="Mfj-Qf-Jrj"/>
+                <constraint firstItem="ZyZ-rc-a8d" firstAttribute="leading" secondItem="2wr-qS-AWN" secondAttribute="leading" id="RqC-ux-Lep"/>
+                <constraint firstAttribute="bottom" secondItem="ZyZ-rc-a8d" secondAttribute="bottom" id="fLW-3D-9Fw"/>
+                <constraint firstAttribute="trailing" secondItem="ZyZ-rc-a8d" secondAttribute="trailing" id="kGW-ly-Mid"/>
+                <constraint firstAttribute="bottom" secondItem="ZyZ-rc-a8d" secondAttribute="bottom" id="vU8-3B-boc"/>
+                <constraint firstItem="ZyZ-rc-a8d" firstAttribute="leading" secondItem="2wr-qS-AWN" secondAttribute="leading" id="wdF-jc-Oxx"/>
+            </constraints>
+            <connections>
+                <outlet property="button" destination="ZyZ-rc-a8d" id="68j-t9-dgW"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="301"/>
+        </view>
+    </objects>
+</document>

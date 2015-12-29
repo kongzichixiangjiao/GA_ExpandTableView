@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DCFBBC911C32BC060089B68B"
-               BuildableName = "GA_TableView.app"
-               BlueprintName = "GA_TableView"
-               ReferencedContainer = "container:GA_TableView.xcodeproj">
+               BuildableName = "GA_ExpandTableView.app"
+               BlueprintName = "GA_ExpandTableView"
+               ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DCFBBCA51C32BC060089B68B"
-               BuildableName = "GA_TableViewTests.xctest"
-               BlueprintName = "GA_TableViewTests"
-               ReferencedContainer = "container:GA_TableView.xcodeproj">
+               BuildableName = "GA_ExpandTableView.xctest"
+               BlueprintName = "GA_ExpandTableViewTests"
+               ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DCFBBCB01C32BC060089B68B"
-               BuildableName = "GA_TableViewUITests.xctest"
-               BlueprintName = "GA_TableViewUITests"
-               ReferencedContainer = "container:GA_TableView.xcodeproj">
+               BuildableName = "GA_ExpandTableView.xctest"
+               BlueprintName = "GA_ExpandTableViewUITests"
+               ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCFBBC911C32BC060089B68B"
-            BuildableName = "GA_TableView.app"
-            BlueprintName = "GA_TableView"
-            ReferencedContainer = "container:GA_TableView.xcodeproj">
+            BuildableName = "GA_ExpandTableView.app"
+            BlueprintName = "GA_ExpandTableView"
+            ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCFBBC911C32BC060089B68B"
-            BuildableName = "GA_TableView.app"
-            BlueprintName = "GA_TableView"
-            ReferencedContainer = "container:GA_TableView.xcodeproj">
+            BuildableName = "GA_ExpandTableView.app"
+            BlueprintName = "GA_ExpandTableView"
+            ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCFBBC911C32BC060089B68B"
-            BuildableName = "GA_TableView.app"
-            BlueprintName = "GA_TableView"
-            ReferencedContainer = "container:GA_TableView.xcodeproj">
+            BuildableName = "GA_ExpandTableView.app"
+            BlueprintName = "GA_ExpandTableView"
+            ReferencedContainer = "container:GA_ExpandTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

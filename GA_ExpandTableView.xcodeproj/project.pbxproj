@@ -14,6 +14,11 @@
 		DCFBBCA01C32BC060089B68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFBBC9E1C32BC060089B68B /* LaunchScreen.storyboard */; };
 		DCFBBCAB1C32BC060089B68B /* GA_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBBCAA1C32BC060089B68B /* GA_TableViewTests.swift */; };
 		DCFBBCB61C32BC060089B68B /* GA_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBBCB51C32BC060089B68B /* GA_TableViewUITests.swift */; };
+		DCFBBCC41C32BC830089B68B /* GA_MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBBCC31C32BC830089B68B /* GA_MyCell.swift */; };
+		DCFBBCC61C32BC8C0089B68B /* GA_MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFBBCC51C32BC8C0089B68B /* GA_MyCell.xib */; };
+		DCFBBCC81C32BCA70089B68B /* GA_MySection.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFBBCC71C32BCA70089B68B /* GA_MySection.xib */; };
+		DCFBBCCA1C32BCBA0089B68B /* GA_MySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBBCC91C32BCBA0089B68B /* GA_MySection.swift */; };
+		DCFBBCCC1C32CEEB0089B68B /* GA_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBBCCB1C32CEEB0089B68B /* GA_Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCFBBC921C32BC060089B68B /* GA_TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBBC921C32BC060089B68B /* GA_ExpandTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_ExpandTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFBBC951C32BC060089B68B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFBBC971C32BC060089B68B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCFBBC9A1C32BC060089B68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCFBBC9C1C32BC060089B68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCFBBC9F1C32BC060089B68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCFBBCA11C32BC060089B68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCFBBCA61C32BC060089B68B /* GA_TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBBCA61C32BC060089B68B /* GA_ExpandTableView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_ExpandTableView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFBBCAA1C32BC060089B68B /* GA_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_TableViewTests.swift; sourceTree = "<group>"; };
 		DCFBBCAC1C32BC060089B68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCFBBCB11C32BC060089B68B /* GA_TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBBCB11C32BC060089B68B /* GA_ExpandTableView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_ExpandTableView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFBBCB51C32BC060089B68B /* GA_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_TableViewUITests.swift; sourceTree = "<group>"; };
 		DCFBBCB71C32BC060089B68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFBBCC31C32BC830089B68B /* GA_MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_MyCell.swift; sourceTree = "<group>"; };
+		DCFBBCC51C32BC8C0089B68B /* GA_MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_MyCell.xib; sourceTree = "<group>"; };
+		DCFBBCC71C32BCA70089B68B /* GA_MySection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_MySection.xib; sourceTree = "<group>"; };
+		DCFBBCC91C32BCBA0089B68B /* GA_MySection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_MySection.swift; sourceTree = "<group>"; };
+		DCFBBCCB1C32CEEB0089B68B /* GA_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,7 @@
 		DCFBBC891C32BC060089B68B = {
 			isa = PBXGroup;
 			children = (
-				DCFBBC941C32BC060089B68B /* GA_TableView */,
+				DCFBBC941C32BC060089B68B /* GA_ExpandTableView */,
 				DCFBBCA91C32BC060089B68B /* GA_TableViewTests */,
 				DCFBBCB41C32BC060089B68B /* GA_TableViewUITests */,
 				DCFBBC931C32BC060089B68B /* Products */,
@@ -87,23 +97,29 @@
 		DCFBBC931C32BC060089B68B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCFBBC921C32BC060089B68B /* GA_TableView.app */,
-				DCFBBCA61C32BC060089B68B /* GA_TableViewTests.xctest */,
-				DCFBBCB11C32BC060089B68B /* GA_TableViewUITests.xctest */,
+				DCFBBC921C32BC060089B68B /* GA_ExpandTableView.app */,
+				DCFBBCA61C32BC060089B68B /* GA_ExpandTableView.xctest */,
+				DCFBBCB11C32BC060089B68B /* GA_ExpandTableView.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCFBBC941C32BC060089B68B /* GA_TableView */ = {
+		DCFBBC941C32BC060089B68B /* GA_ExpandTableView */ = {
 			isa = PBXGroup;
 			children = (
 				DCFBBC951C32BC060089B68B /* AppDelegate.swift */,
 				DCFBBC971C32BC060089B68B /* ViewController.swift */,
+				DCFBBCC31C32BC830089B68B /* GA_MyCell.swift */,
+				DCFBBCC51C32BC8C0089B68B /* GA_MyCell.xib */,
+				DCFBBCC91C32BCBA0089B68B /* GA_MySection.swift */,
+				DCFBBCC71C32BCA70089B68B /* GA_MySection.xib */,
+				DCFBBCCB1C32CEEB0089B68B /* GA_Model.swift */,
 				DCFBBC991C32BC060089B68B /* Main.storyboard */,
 				DCFBBC9C1C32BC060089B68B /* Assets.xcassets */,
 				DCFBBC9E1C32BC060089B68B /* LaunchScreen.storyboard */,
 				DCFBBCA11C32BC060089B68B /* Info.plist */,
 			);
+			name = GA_ExpandTableView;
 			path = GA_TableView;
 			sourceTree = "<group>";
 		};
@@ -128,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCFBBC911C32BC060089B68B /* GA_TableView */ = {
+		DCFBBC911C32BC060089B68B /* GA_ExpandTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCFBBCBA1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableView" */;
+			buildConfigurationList = DCFBBCBA1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableView" */;
 			buildPhases = (
 				DCFBBC8E1C32BC060089B68B /* Sources */,
 				DCFBBC8F1C32BC060089B68B /* Frameworks */,
@@ -140,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = GA_TableView;
+			name = GA_ExpandTableView;
 			productName = GA_TableView;
-			productReference = DCFBBC921C32BC060089B68B /* GA_TableView.app */;
+			productReference = DCFBBC921C32BC060089B68B /* GA_ExpandTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCFBBCA51C32BC060089B68B /* GA_TableViewTests */ = {
+		DCFBBCA51C32BC060089B68B /* GA_ExpandTableViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCFBBCBD1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableViewTests" */;
+			buildConfigurationList = DCFBBCBD1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableViewTests" */;
 			buildPhases = (
 				DCFBBCA21C32BC060089B68B /* Sources */,
 				DCFBBCA31C32BC060089B68B /* Frameworks */,
@@ -158,14 +174,14 @@
 			dependencies = (
 				DCFBBCA81C32BC060089B68B /* PBXTargetDependency */,
 			);
-			name = GA_TableViewTests;
+			name = GA_ExpandTableViewTests;
 			productName = GA_TableViewTests;
-			productReference = DCFBBCA61C32BC060089B68B /* GA_TableViewTests.xctest */;
+			productReference = DCFBBCA61C32BC060089B68B /* GA_ExpandTableView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCFBBCB01C32BC060089B68B /* GA_TableViewUITests */ = {
+		DCFBBCB01C32BC060089B68B /* GA_ExpandTableViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCFBBCC01C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableViewUITests" */;
+			buildConfigurationList = DCFBBCC01C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableViewUITests" */;
 			buildPhases = (
 				DCFBBCAD1C32BC060089B68B /* Sources */,
 				DCFBBCAE1C32BC060089B68B /* Frameworks */,
@@ -176,9 +192,9 @@
 			dependencies = (
 				DCFBBCB31C32BC060089B68B /* PBXTargetDependency */,
 			);
-			name = GA_TableViewUITests;
+			name = GA_ExpandTableViewUITests;
 			productName = GA_TableViewUITests;
-			productReference = DCFBBCB11C32BC060089B68B /* GA_TableViewUITests.xctest */;
+			productReference = DCFBBCB11C32BC060089B68B /* GA_ExpandTableView.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCFBBC8D1C32BC060089B68B /* Build configuration list for PBXProject "GA_TableView" */;
+			buildConfigurationList = DCFBBC8D1C32BC060089B68B /* Build configuration list for PBXProject "GA_ExpandTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCFBBC911C32BC060089B68B /* GA_TableView */,
-				DCFBBCA51C32BC060089B68B /* GA_TableViewTests */,
-				DCFBBCB01C32BC060089B68B /* GA_TableViewUITests */,
+				DCFBBC911C32BC060089B68B /* GA_ExpandTableView */,
+				DCFBBCA51C32BC060089B68B /* GA_ExpandTableViewTests */,
+				DCFBBCB01C32BC060089B68B /* GA_ExpandTableViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +248,8 @@
 				DCFBBCA01C32BC060089B68B /* LaunchScreen.storyboard in Resources */,
 				DCFBBC9D1C32BC060089B68B /* Assets.xcassets in Resources */,
 				DCFBBC9B1C32BC060089B68B /* Main.storyboard in Resources */,
+				DCFBBCC61C32BC8C0089B68B /* GA_MyCell.xib in Resources */,
+				DCFBBCC81C32BCA70089B68B /* GA_MySection.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCFBBC981C32BC060089B68B /* ViewController.swift in Sources */,
+				DCFBBCCC1C32CEEB0089B68B /* GA_Model.swift in Sources */,
 				DCFBBC961C32BC060089B68B /* AppDelegate.swift in Sources */,
+				DCFBBCC41C32BC830089B68B /* GA_MyCell.swift in Sources */,
+				DCFBBCCA1C32BCBA0089B68B /* GA_MySection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		DCFBBCA81C32BC060089B68B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCFBBC911C32BC060089B68B /* GA_TableView */;
+			target = DCFBBC911C32BC060089B68B /* GA_ExpandTableView */;
 			targetProxy = DCFBBCA71C32BC060089B68B /* PBXContainerItemProxy */;
 		};
 		DCFBBCB31C32BC060089B68B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCFBBC911C32BC060089B68B /* GA_TableView */;
+			target = DCFBBC911C32BC060089B68B /* GA_ExpandTableView */;
 			targetProxy = DCFBBCB21C32BC060089B68B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +421,7 @@
 				INFOPLIST_FILE = GA_TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GA_ExpandTableView;
 			};
 			name = Debug;
 		};
@@ -411,7 +432,7 @@
 				INFOPLIST_FILE = GA_TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GA_ExpandTableView;
 			};
 			name = Release;
 		};
@@ -422,8 +443,8 @@
 				INFOPLIST_FILE = GA_TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_TableView.app/GA_TableView";
+				PRODUCT_NAME = GA_ExpandTableView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_ExpandTableView.app/GA_ExpandTableView";
 			};
 			name = Debug;
 		};
@@ -434,8 +455,8 @@
 				INFOPLIST_FILE = GA_TableViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_TableView.app/GA_TableView";
+				PRODUCT_NAME = GA_ExpandTableView;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_ExpandTableView.app/GA_ExpandTableView";
 			};
 			name = Release;
 		};
@@ -445,7 +466,7 @@
 				INFOPLIST_FILE = GA_TableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GA_ExpandTableView;
 				TEST_TARGET_NAME = GA_TableView;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +478,7 @@
 				INFOPLIST_FILE = GA_TableViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-TableViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GA_ExpandTableView;
 				TEST_TARGET_NAME = GA_TableView;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCFBBC8D1C32BC060089B68B /* Build configuration list for PBXProject "GA_TableView" */ = {
+		DCFBBC8D1C32BC060089B68B /* Build configuration list for PBXProject "GA_ExpandTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFBBCB81C32BC060089B68B /* Debug */,
@@ -475,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCFBBCBA1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableView" */ = {
+		DCFBBCBA1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFBBCBB1C32BC060089B68B /* Debug */,
@@ -483,7 +504,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DCFBBCBD1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableViewTests" */ = {
+		DCFBBCBD1C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFBBCBE1C32BC060089B68B /* Debug */,
@@ -491,7 +512,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DCFBBCC01C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_TableViewUITests" */ = {
+		DCFBBCC01C32BC060089B68B /* Build configuration list for PBXNativeTarget "GA_ExpandTableViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCFBBCC11C32BC060089B68B /* Debug */,
